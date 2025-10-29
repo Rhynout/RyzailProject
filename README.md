@@ -35,4 +35,4 @@ Créditos em [`IMAGES.md`](IMAGES.md)
 
 ---
 
-*Feito por Daniel [](https://github.com/Rhynout)*
+*Feito por Daniel Souza (@Rhynout) [](https://github.com/Rhynout)*
