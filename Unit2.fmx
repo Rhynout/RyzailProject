@@ -1,0 +1,130 @@
+object Form4: TForm4
+  Left = 0
+  Top = 0
+  Caption = 'Form4'
+  ClientHeight = 675
+  ClientWidth = 400
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  DesignerMasterStyle = 0
+  object Rectangle2: TRectangle
+    Align = Scale
+    Fill.Color = claWhite
+    Size.Width = 400.000000000000000000
+    Size.Height = 675.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Rectangle3: TRectangle
+      Align = Scale
+      Fill.Color = claBlack
+      Position.X = 23.000000000000000000
+      Position.Y = 584.000000000000000000
+      Size.Width = 350.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = Gradient
+      Stroke.Gradient.Points = <
+        item
+          Color = claBlack
+          Offset = 0.000000000000000000
+        end
+        item
+          Color = xFF2E0B47
+          Offset = 1.000000000000000000
+        end>
+      Stroke.Gradient.StartPosition.X = 0.266846179962158200
+      Stroke.Gradient.StartPosition.Y = 1.000000000000000000
+      Stroke.Gradient.StopPosition.X = 0.733153820037841800
+      Stroke.Gradient.StopPosition.Y = -0.000000025007132365
+      object Button2: TButton
+        Align = Scale
+        Opacity = 0.000000000000000000
+        Size.Width = 349.999969482421900000
+        Size.Height = 65.000007629394530000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = 'Button2'
+        OnClick = Button2Click
+      end
+      object Label2: TLabel
+        Align = Scale
+        StyledSettings = []
+        Size.Width = 349.999969482421900000
+        Size.Height = 65.000007629394530000
+        Size.PlatformDefault = False
+        TextSettings.Font.Family = 'Calibri'
+        TextSettings.Font.Size = 16.000000000000000000
+        TextSettings.Font.StyleExt = {00020000000000000004000000}
+        TextSettings.FontColor = claAliceblue
+        TextSettings.HorzAlign = Center
+        Text = 'Entrar'
+        TabOrder = 1
+      end
+    end
+    object Edit1: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Scale
+      TabOrder = 0
+      Position.X = 22.702701568603520000
+      Position.Y = 265.500000000000000000
+      Size.Width = 350.270263671875000000
+      Size.Height = 74.250000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Usu'#225'rio'
+      StyledSettings = [Family, Size, Style, FontColor, Other]
+    end
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Scale
+      TabOrder = 2
+      Password = True
+      Position.X = 22.702701568603520000
+      Position.Y = 374.625000000000000000
+      Size.Width = 350.270263671875000000
+      Size.Height = 74.250000000000000000
+      Size.PlatformDefault = False
+      TextPrompt = 'Senha'
+    end
+  end
+  object Label3: TLabel
+    Align = Scale
+    StyledSettings = []
+    Position.X = 16.243652343750000000
+    Position.Y = 24.161075592041020000
+    Size.Width = 350.253662109375000000
+    Size.Height = 86.073822021484380000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Raleway'
+    TextSettings.Font.Size = 48.000000000000000000
+    TextSettings.Font.StyleExt = {00000000000000000004000000}
+    TextSettings.FontColor = claDarkslateblue
+    Text = 'Ryzail'
+    TabOrder = 20
+  end
+  object Label1: TLabel
+    Align = Scale
+    StyledSettings = [FontColor]
+    Position.X = 24.365482330322270000
+    Position.Y = 181.208099365234400000
+    Size.Width = 350.253662109375000000
+    Size.Height = 86.073760986328130000
+    Size.PlatformDefault = False
+    TextSettings.Font.Family = 'Raleway'
+    TextSettings.Font.Size = 25.000000000000000000
+    TextSettings.Font.StyleExt = {00000000000000000004000000}
+    Text = 'Login e Senha:'
+    TabOrder = 19
+  end
+  object Rectangle1: TRectangle
+    Align = Scale
+    Fill.Color = xFF1F043F
+    Position.Y = 132.885894775390600000
+    Size.Width = 407.106719970703100000
+    Size.Height = 3.019927978515625000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+end
