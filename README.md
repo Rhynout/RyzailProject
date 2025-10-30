@@ -2,7 +2,7 @@
 
 Social Network for Artists.
 
-**Código por Daniel Souza (@Rhynout) – 2025**
+**Código por Daniel Souza (@Rhynout) – 2023**
 
 ---
 
