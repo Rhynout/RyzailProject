@@ -2,7 +2,7 @@
 
 Social Network for Artists.
 
-**Código por Daniel Souza (@Rhynout) – 2023**
+**Código por Daniel Souza (@danielslza) – 2023**
 
 ---
 
@@ -68,4 +68,4 @@ Profile
 ---
 
 
-*Feito por Daniel Souza (@Rhynout) [](https://github.com/Rhynout)*
+*Feito por Daniel Souza (@danielslza) [](https://github.com/Rhynout)*
