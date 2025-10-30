@@ -69,5 +69,5 @@ Essas imagens foram usadas **exclusivamente como placeholders** para:
 
 ---
 
-*Documento mantido por Daniel (@Rhynout) – 2025*  
+*Documento mantido por Daniel (@Rhynout) – 2023*  
 *Projeto desenvolvido em Delphi*
